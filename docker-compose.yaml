@@ -1,0 +1,16 @@
+  services:
+    smartide-base-v2-vmlc-service:
+      tty: true
+      image: base
+      runtime: sysbox-runc
+      hostname: syscont
+      restart: always
+      container_name: test
+      environment:
+        - LOCAL_USER_PASSWORD=123123 
+      ports:
+        - "6822:22"
+        - 6800:3000
+        - 3001:3001
+      volumes:
+        - .:/home/project
