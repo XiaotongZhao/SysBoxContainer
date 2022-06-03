@@ -1,7 +1,7 @@
 #isntall sysbox e.e
-wget https://github.com/nestybox/sysbox-ee/releases/download/v0.4.0/sysbox-ee_0.4.0-0.ubuntu-focal_amd64.deb
+wget https://downloads.nestybox.com/sysbox/releases/v0.5.2/sysbox-ce_0.5.2-0.linux_amd64.deb
 
-sudo apt-get install ./sysbox-ee_0.4.0-0.ubuntu-focal_amd64.deb
+sudo apt-get install ./sysbox-ce_0.5.2-0.linux_amd64.deb
 
 sudo systemctl status sysbox -n20
 
