@@ -1,4 +1,4 @@
-#isntall sysbox e.e
+#isntall sysbox c.e
 
 wget https://downloads.nestybox.com/sysbox/releases/v0.5.2/sysbox-ce_0.5.2-0.linux_amd64.deb
 
